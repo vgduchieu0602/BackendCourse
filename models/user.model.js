@@ -1,6 +1,7 @@
 import mongoose from 'mongoose'
 
 const userSchema = new mongoose.Schema({
+<<<<<<< HEAD
     name: {
         type: String,
         required: [true, 'Name is required'],
@@ -26,3 +27,7 @@ const userSchema = new mongoose.Schema({
 const User = mongoose.model('User', userSchema)
 
 export default User;
+=======
+    name:
+})
+>>>>>>> f90977b707209d8ef6143583a2bfed9fbfca31d7
